@@ -1,0 +1,19 @@
+[
+  {
+    "path": "src/assets/model/wukong.bin",
+    "sha256": "c0a810490eb2f552793f3a9daa70e5adee063a8c9af8136e505064f7a19aa228",
+    "parts": [
+      "packed-assets/wukong.bin.gz.part1",
+      "packed-assets/wukong.bin.gz.part2"
+    ]
+  },
+  {
+    "path": "src/assets/wood_texture/wood_base.jpg",
+    "sha256": "5923733d68da0dccb21ae64f4624bcaa6223395a91921a4f5df3af017d1f259b",
+    "parts": [
+      "packed-assets/wood_base.jpg.gz.part1",
+      "packed-assets/wood_base.jpg.gz.part2",
+      "packed-assets/wood_base.jpg.gz.part3"
+    ]
+  }
+]

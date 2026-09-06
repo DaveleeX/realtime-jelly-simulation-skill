@@ -1,0 +1,93 @@
+{
+  "sourceHash": "reference-chibi-wukong-v3",
+  "scale": 0.01115243915863328,
+  "bottom": 0.024132661521434784,
+  "volume": 8.440598688436207e-06,
+  "layout": {
+    "positions": {
+      "offset": 0,
+      "length": 417867,
+      "type": "float32"
+    },
+    "normals": {
+      "offset": 1671472,
+      "length": 417867,
+      "type": "float32"
+    },
+    "indices": {
+      "offset": 3342944,
+      "length": 835806,
+      "type": "uint32"
+    },
+    "particles": {
+      "offset": 6686168,
+      "length": 645,
+      "type": "float64"
+    },
+    "tets": {
+      "offset": 6691328,
+      "length": 2280,
+      "type": "uint32"
+    },
+    "volumes": {
+      "offset": 6700448,
+      "length": 570,
+      "type": "float64"
+    },
+    "bindingIds": {
+      "offset": 6705008,
+      "length": 557156,
+      "type": "uint32"
+    },
+    "bindingWeights": {
+      "offset": 8933632,
+      "length": 557156,
+      "type": "float64"
+    },
+    "tetIds": {
+      "offset": 13390880,
+      "length": 139289,
+      "type": "uint32"
+    },
+    "contacts": {
+      "offset": 13948040,
+      "length": 540,
+      "type": "uint32"
+    },
+    "opticalPositions": {
+      "offset": 13950200,
+      "length": 45606,
+      "type": "float32"
+    },
+    "opticalNormals": {
+      "offset": 14132624,
+      "length": 45606,
+      "type": "float32"
+    },
+    "opticalIndices": {
+      "offset": 14315048,
+      "length": 91272,
+      "type": "uint32"
+    },
+    "opticalBindingIds": {
+      "offset": 14680136,
+      "length": 60808,
+      "type": "uint32"
+    },
+    "opticalBindingWeights": {
+      "offset": 14923368,
+      "length": 60808,
+      "type": "float64"
+    },
+    "thicknessIds": {
+      "offset": 15409832,
+      "length": 417867,
+      "type": "uint32"
+    },
+    "thicknessWeights": {
+      "offset": 17081304,
+      "length": 417867,
+      "type": "float32"
+    }
+  }
+}
