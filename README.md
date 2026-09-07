@@ -2,7 +2,9 @@
 
 基于 WebGPU / Three.js 的实时软体果冻互动工程，支持默认 Jelly Baby 与孙悟空果冻切换。
 
-在线体验：https://wukong-jelly-lab.pokemonzangoose.chatgpt.site
+在线体验：[打开 Vercel 正式版](https://realtime-jelly-simulation-skill.vercel.app)
+
+原预览：[Jelly Lab](https://wukong-jelly-lab.pokemonzangoose.chatgpt.site)
 
 ## 功能
 - 重力、台面碰撞、拖拽拉伸、抛掷、回弹与体积保持。
@@ -70,3 +72,8 @@ Warm Bar HDR 来自 [Poly Haven](https://polyhaven.com/a/warm_bar)，CC0，详�
 
 ## 大文件存储
 受上传接口限制，孙悟空模型和历史木纹贴图以 gzip 分块保存在 `packed-assets/`。`npm ci` 会自动无损还原，并校验 SHA-256；禁用安装脚本时请手动执行 `npm run assets:restore`。开发和构建前也会检查还原状态。
+
+## Vercel 部署
+正式地址：https://realtime-jelly-simulation-skill.vercel.app
+
+当前发布为预构建的完整静态版本，模型、HDR 和页面资源均托管在 Vercel。暂未建立 GitHub 自动部署关联，后续源码提交需要重新部署。通过 Git 导入时选择 Vite，安装命令 `npm ci`，构建命令 `npm run build`，输出目录 `dist`。
